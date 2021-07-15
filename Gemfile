@@ -38,6 +38,8 @@ gem 'bootstrap-sass', '3.3.7'
 gem 'font-awesome-sass', '4.6.2'
 # use hird for better db data display
 gem 'hirb', '0.7.3'
+# Use Devise for user authentication
+gem 'devise'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
