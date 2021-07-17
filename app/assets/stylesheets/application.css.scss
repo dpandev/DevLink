@@ -67,3 +67,15 @@ h1, h2, h3 {
 .navbar {
     border: none;
 }
+
+.navbar-btn {
+    color: #fff;
+    background-color: transparent;
+    border-color: #fff;
+    &:hover,
+    &:focus {
+        background-color: #fff;
+        color: #000;
+        transform: scale(1.0);
+    }
+}
