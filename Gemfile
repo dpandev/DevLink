@@ -40,6 +40,10 @@ gem 'font-awesome-sass', '4.6.2'
 gem 'hirb', '0.7.3'
 # Use Devise for user authentication
 gem 'devise'
+# Use Stripe for payment processing
+gem 'stripe'
+# Use Figaro for ENV variables
+gem 'figaro'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
