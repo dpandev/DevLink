@@ -6,6 +6,10 @@ class User < ApplicationRecord
   belongs_to :plan
   has_one :profile
   
+  def has_profile
+    return self.profile != nil
+  end
+  
   attr_accessor :stripe_card_token
   def save_with_subscription
     if valid?
