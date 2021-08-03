@@ -44,6 +44,8 @@ gem 'devise'
 gem 'stripe'
 # Use Figaro for ENV variables
 gem 'figaro'
+# Use Paperclip for image upload
+gem 'paperclip'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
