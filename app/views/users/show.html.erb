@@ -1,6 +1,6 @@
 <div>
   <div class="row">
-    <div class="col-md-3 col-md-offset-1">
+    <div class="col-md-3 col-md-offset-1 text-center">
       <%= image_tag @user.profile.avatar.url, class: 'avatar-show-img' %>
     </div>
     <div class="col-md-6">
@@ -13,7 +13,7 @@
     </div>
   </div>
   <div class="row">
-    <div class="col-md-3 col-md-offset-1">
+    <div class="col-md-3 col-md-offset-1 text-center">
       <% if user_signed_in? && (current_user.id == @user.id) %>
         <%= link_to "Edit profile", edit_user_profile_path(user_id: current_user.id), class: 'btn btn-default btn-lg btn-block' %>
       <% end %>
