@@ -12,10 +12,17 @@
       </div>
       <% if current_user.plan_id == 2 %>
         <div class="well profile-block pro-contact">
-          <h3>Contact Information</h3>
-          <%= @user.profile.phone_number %>
-          <%= @user.profile.contact_email %>
-        </div>
+            <h3>Contact Information</h3>
+            <%= @user.profile.phone_number %>
+            <%= @user.profile.contact_email %>
+          </div>
+      <% else %>
+        <div class="well profile-block pro-contact">
+            <h3>Contact Information</h3>
+            <br>
+            <p class="text-center">Sign up for DevLink Pro to view users' contact information</p>
+            <br>
+          </div>
       <% end %>
     </div>
   </div>

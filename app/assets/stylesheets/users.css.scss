@@ -7,27 +7,29 @@
     display: inline-block;
     width: 30px;
     height: 30px;
-    border: 2px solid #7f7f7f;
-    border-radius: 4px;
-    background-color: #3e4042;
-    color: white;
+    background-color: #fff;
+    color: #3e4042;
     text-align: center;
     margin-right: 5px;
 }
 
 .well.profile-block {
-    color: #fff;
+    color: #3e4042;
     h3 {
         margin-top: 0;
     }
 }
 
 .well.pro-desc {
-    background-color: #3e4042;
+    background-color: #fff;
     border-color: #7f7f7f;
 }
 
 .well.pro-contact {
-    background-color: #3e4042;
+    background-color: #fff;
     border-color:  #7f7f7f;
+}
+
+.profile-pg-container {
+    background-color: #3e4042;
 }
